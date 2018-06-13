@@ -1,0 +1,173 @@
+body{
+	      background-image:url(abs1.jpg);
+		  }
+	 ul{
+	      list-style-type:none;
+		  margin:0;
+		  padding:0;
+		  overflow:hidden;
+		  margin-left:10px;
+		  background-color:#8D8383;
+	   }
+	   li{
+	       float:left;
+		 }
+		li a{
+		      display:block;
+			  color:white;
+			  border-right:1px solid black;
+			  text-align:center;
+			  padding:14px 16px;
+			  text-decoration:none;
+			}
+		 li a:hover{
+		      background-color:black;
+			  color:white;
+			  }
+	    #ayush{
+		      position:relative;
+			  top:10px;
+			  left:984px;
+			  border-radius:50px;
+			  animation-name:brightness;
+			  animation-duration:4s;
+			  }
+			  @keyframes brightness{
+				   0%{opacity:0;}
+				   25%{opacity:.25}
+				   50%{opacity:.50;}
+				   100%{opacity:1};
+			  }
+		.intro{
+		        color:#24060A;
+				font-size:75px;
+				font-family:Segoe Script;
+				color:#F6630E;
+				position:absolute;
+				top:150px;
+				left:30%;
+				animation-name:font-size;
+				animation-duration:2s;
+				}
+		@keyframes font-size{
+			            0%{font-size:0px;}
+						25%{font-size;25px:}
+						50%{font-size;50px:}
+						100%{font-size;75px:}
+		             }
+		p.about{
+				margin-left:200px;
+				border-width:1px;
+				border-style:solid;
+				border-color:black;
+				border-radius:10px;
+				width:900px;
+				background-color:#939A98;
+				color:black;
+				padding:10px;
+			    font-family:Bradley Hand ITC;
+				font-size:25px;
+				font-weight:bold;
+				opacity:0.7;
+	          }
+		#RR{
+			  position:absolute;
+              top:11%;
+			  left:2px;
+			  opacity:0.8;
+			  animation-name:dive;
+			  animation-duration:2s;
+           }
+		   @keyframes dive{
+                0%{transform:translatex(0);}
+                100%{transform:translatex(1150px);}
+				 }  	
+			 
+        #wwe{
+		      position:absolute;
+			  opacity:0.8;
+			  top:350px;
+			  left:990px;
+			}				 
+	    #programm{
+			     position:absolute;
+			     top:11%;
+				 left:1150px;
+				 opacity:0.8;
+				 animation-name:drive;
+				 animation-duration:2s;
+				 }
+		@keyframes drive{
+                from{transform:translatex(0)}
+                to{transform:translatex(-1150px)}
+				 }  	
+		#stormbreaker{
+		            position:absolute;
+					top:250px;
+					left:1150px;
+					opacity:0.8;
+					animation-name:driive;
+					animation-duration:2s;
+					}
+	     @keyframes driive{
+                from{transform:translatex(0)}
+                to{transform:translatex(-1150px)}
+				 }  	
+		 p.task{
+				margin-left:200px;
+				margin-top:200px;
+				border-width:1px;
+				border-style:solid;
+				border-color:black;
+				border-radius:10px;
+				width:900px;
+				background-color:#939A98;
+				padding:10px;
+			    font-family:Bradley Hand ITC;
+				font-size:25px;
+				font-weight:bold;
+				transition:2s;
+				animation-name:contrast;
+				animation-duration:4s;
+	          }
+		 .task:hover{
+			     width: 500px 900px;
+		 }
+		 @keyframes contrast{
+			      from{opacity:0;}
+				  to{opacity:1;}
+		 }
+		#contact{
+				 margin-left:200px;
+				 margin-top:5%;
+ 				border-width:1px;
+				border-style:solid;
+				border-color:black;
+				border-radius:10px;
+				width:900px;
+				background-color:#939A98;
+				padding:10px;
+			    font-family:Bradley Hand ITC;
+				font-size:25px;
+				font-weight:bold;
+				animation-name:name;
+				animation-duration:4s;
+			  }
+			  @keyframes name{
+				   from{opacity:0;}
+				   to{opacity:1;}
+			  } 
+			  i{
+				  font-family:Segoe Script;
+				  color:red;
+				  animation-name:blue;
+				  animation-duration:4s;
+			}
+			@keyframes blue{
+				0%{color:blue;}
+				25%{color:#green;}
+				50%{color:#yellow;}
+				100%{color:#red;}
+				
+			}				 
+		  
